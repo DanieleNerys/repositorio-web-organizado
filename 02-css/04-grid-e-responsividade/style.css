@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 2rem; background: #f4f6fa; }
+.grade { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+article { padding: 30px 12px; text-align: center; background: white; border: 1px solid #dce3ef; border-radius: 12px; }
+@media (max-width: 800px) { .grade { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .grade { grid-template-columns: 1fr; } }

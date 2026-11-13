@@ -1,0 +1,3 @@
+body { font-family: Arial, sans-serif; padding: 2rem; }
+.linha { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; padding: 24px; background: #edf2fc; }
+.linha div { padding: 24px; color: white; background: #3157a4; border-radius: 10px; }
